@@ -8,7 +8,8 @@
 public class TeamMember
 {
     // instance variables - replace the example below with your own
-    private int x;
+    String name, division;
+    int employeeNum;
 
     /**
      * Constructor for objects of class TeamMember
@@ -16,18 +17,7 @@ public class TeamMember
     public TeamMember()
     {
         // initialise instance variables
-        x = 0;
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
-    }
+
 }
