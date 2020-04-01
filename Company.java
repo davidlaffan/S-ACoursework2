@@ -17,6 +17,29 @@ public class Company
     {
         // initialise instance variables
     }
+    
+    //new project
+        //search to see if a project has similar details
+        // if so, tell the user of the project and see if its recognisable
+        //if yes, cancel. if no, continue
+    //new member to specific project
+        //select project
+        //ask for member info
+        //check for any similarities
+    //display details for specific project
+        //dropdown menu of projects??
+    //display details for all projects
+        //go through the list of all projects and export to a CSV
+    //remove employee from a project
+        //ask for project
+        //list employees, user chooses which employee is dropped
+    //remove project from a system
+        //lists all projects, user chooses project
+        //confirmation of the users choice
+        //list is set up without the deleted project
+    
+    //common functions
+    //find companies
 
 
 }
