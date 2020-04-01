@@ -8,7 +8,7 @@
 public class Company
 {
     // instance variables - replace the example below with your own
-    //linked list for project
+    //linked list for 
 
     /**
      * Constructor for objects of class Company
@@ -39,7 +39,7 @@ public class Company
         //list is set up without the deleted project
     
     //common functions
-    //find companies
+    //find project
 
 
 }

@@ -21,6 +21,8 @@ public class BinaryTree
         value = nodeVal;
     }
     
+    
+    //incorporate two classes into one?
     public void addRightNode(Object val){
         rightNode = new BinaryTree(val);
     }
@@ -28,6 +30,24 @@ public class BinaryTree
     public void addLeftNode(Object val){
         leftNode = new BinaryTree(val);
     }
+    //^
+    
+    //preliminary class
+    //addValue (entry)
+    //if entry < nodeVal
+    //add to left
+    //if left full
+    // if entry < left value
+    // left value addValue(entry)
+    // if entry > left value
+    // swap left value with entry
+    // left value addValue(entry) now leftValue and entry have swapped
+    //if left empty
+    // add to left node
+    //vice versa for right
+    
+    // end of class
+    
     
     public Object giveValue(){
         return value;
