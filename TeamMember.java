@@ -14,10 +14,23 @@ public class TeamMember
     /**
      * Constructor for objects of class TeamMember
      */
-    public TeamMember()
+    public TeamMember(String n, String d, int id)
     {
-        // initialise instance variables
+        this.name = n;
+        this.division = d;
+        this.employeeNum = id;// initialise instance variables
     }
 
+    public String giveName(){
+        return name;
+    }
+    
+    public String showDept(){
+        return division;
+    }
+    
+    public int giveID(){
+        return employeeNum;
+    }
 
 }
